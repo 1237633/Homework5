@@ -25,15 +25,14 @@ public class Main {
                 System.out.println(" ");
             }
 
-        } else {
-            if (releaseYear >= 2015) {
+        } else if (releaseYear >= 2015) {
                 System.out.println("Установите версию приложения для Android по ссылке");
                 System.out.println(" ");
             } else {
                 System.out.println("Установите облегченную версию приложения для Android по ссылке");
                 System.out.println(" ");
             }
-        }
+
         //3
                 //високосным является каждый четвертый год, но не является каждый сотый. Также високосным является каждый четырехсотый год.
                 short year;
